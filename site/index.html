@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="src/img/hEY DIGITAL_img.png">
+  <title>Cantaí - Karaokê Social</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f8f9fa;
+    }
+    .hero {
+      background: linear-gradient(135deg, #cd9f58, #b07d2c);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .plan-card {
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform .2s;
+    }
+    .plan-card:hover {
+      transform: translateY(-5px);
+    }
+    .btn-buy {
+      background-color: #cd9f58;
+      border: none;
+    }
+    .btn-buy:hover {
+      background-color: #b07d2c;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="src/gif/cantaigif.gif" style="width: 300px; height: 300px;">
+    <p>O Karaokê Social para você e seus amigos</p>
+    <p><strong>Experimente grátis</strong> e depois escolha o plano ideal para sua festa!</p>
+  </section>
+
+  <!-- Free Plan Info -->
+  <section class="container my-5">
+    <div class="text-center">
+      <h2>Versão Gratuita</h2>
+      <p>Com a versão gratuita, você terá algumas limitações:</p>
+      <ul class="list-unstyled">
+        <li>🎵 Até 3 músicas por usuário</li>
+        <li>👥 Até 3 usuários no host</li>
+        <li>⏳ 1 música na fila por usuário</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Plans Section -->
+  <section class="container my-5">
+    <h2 class="text-center mb-4">Planos Premium</h2>
+    <div class="row g-4">
+
+      <!-- Plano 1 -->
+      <div class="col-md-4">
+        <div class="card plan-card p-3 text-center">
+          <h4>Plano 1</h4>
+          <p class="text-muted">R$ 20/mês</p>
+          <ul class="list-unstyled">
+            <li>👥 Até 3 usuários no host</li>
+            <li>🎵 2 músicas na fila por usuário</li>
+            <li>🎶 Até 4 músicas por usuário</li>
+          </ul>
+          <button class="btn btn-buy text-white w-100">Assinar</button>
+        </div>
+      </div>
+
+      <!-- Plano 2 -->
+      <div class="col-md-4">
+        <div class="card plan-card p-3 text-center">
+          <h4>Plano 2</h4>
+          <p class="text-muted">R$ 30/mês</p>
+          <ul class="list-unstyled">
+            <li>👥 Até 5 usuários no host</li>
+            <li>🎵 2 músicas na fila por usuário</li>
+            <li>🎶 Até 6 músicas por usuário</li>
+          </ul>
+          <button class="btn btn-buy text-white w-100">Assinar</button>
+        </div>
+      </div>
+
+      <!-- Plano 3 -->
+      <div class="col-md-4">
+        <div class="card plan-card p-3 text-center">
+          <h4>Plano 3</h4>
+          <p class="text-muted">R$ 40/mês</p>
+          <ul class="list-unstyled">
+            <li>👥 Até 8 usuários no host</li>
+            <li>🎵 3 músicas na fila por usuário</li>
+            <li>🎶 Sem limitação de músicas tocadas</li>
+          </ul>
+          <button class="btn btn-buy text-white w-100">Assinar</button>
+        </div>
+      </div>
+
+      <!-- Plano Business -->
+      <div class="col-md-6">
+        <div class="card plan-card p-3 text-center">
+          <h4>Plano Party Time 🎉</h4>
+          <p class="text-muted">R$ 50/mês</p>
+          <ul class="list-unstyled">
+            <li>👥 Até 15 usuários no host</li>
+            <li>🎵 5 músicas na fila por usuário</li>
+            <li>🎶 Sem limitação de músicas tocadas</li>
+          </ul>
+          <button class="btn btn-buy text-white w-100">Assinar</button>
+        </div>
+      </div>
+
+      <!-- Plano Party Time -->
+      <div class="col-md-6">
+        <div class="card plan-card p-3 text-center">
+          <h4>Plano Business Party 🎉</h4>
+          <p class="text-muted">R$ 80/mês</p>
+          <ul class="list-unstyled">
+            <li>🚀 Sem limitação de usuários</li>
+            <li>🎵 Sem limitação de músicas no host</li>
+            <li>🎶 Sem limitação de músicas tocadas</li>
+          </ul>
+          <button class="btn btn-buy text-white w-100">Assinar</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="text-center py-4 bg-light">
+    <p>&copy; 2025 Cantai - Hey Digital</p> <img src="src/img/hEY DIGITAL7.png"/>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
